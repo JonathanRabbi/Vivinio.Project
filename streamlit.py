@@ -31,4 +31,5 @@ st.title('Vivinio Wine Recommendation')
 
 st.image('images/Vivino_logo.jpg', use_column_width=False, output_format="jpg")
 
+st.title('QUESTION 2: What country should we focus on?')
 st.plotly_chart(fig, use_container_width=False)
