@@ -1,0 +1,220 @@
+mixed_tastes,taste_groups,count_mixed_tastes
+"toast,green apple,citrus,coffee,cream","non_oak,tree_fruit,citrus_fruit,oak,microbio",5
+"toast,cream,coffee,green apple,citrus","non_oak,microbio,oak,tree_fruit,citrus_fruit",5
+"toast,cream,coffee,green apple,citrus","non_oak,microbio,oak,tree_fruit,citrus_fruit",5
+"toast,cream,coffee,citrus,green apple","non_oak,microbio,oak,citrus_fruit,tree_fruit",5
+"toast,coffee,green apple,cream,citrus","non_oak,oak,tree_fruit,microbio,citrus_fruit",5
+"toast,coffee,cream,green apple,citrus","non_oak,oak,microbio,tree_fruit,citrus_fruit",5
+"toast,coffee,cream,green apple,citrus","non_oak,oak,microbio,tree_fruit,citrus_fruit",5
+"toast,coffee,cream,green apple,citrus","non_oak,oak,microbio,tree_fruit,citrus_fruit",5
+"toast,coffee,cream,green apple,citrus","non_oak,oak,microbio,tree_fruit,citrus_fruit",5
+"toast,coffee,cream,green apple,citrus","non_oak,oak,microbio,tree_fruit,citrus_fruit",5
+"toast,coffee,cream,green apple,citrus","non_oak,oak,microbio,tree_fruit,citrus_fruit",5
+"toast,coffee,cream,citrus,green apple","non_oak,oak,microbio,citrus_fruit,tree_fruit",5
+"toast,coffee,cream,citrus,green apple","non_oak,oak,microbio,citrus_fruit,tree_fruit",5
+"green apple,toast,citrus,cream,coffee","tree_fruit,non_oak,citrus_fruit,microbio,oak",5
+"green apple,coffee,toast,citrus,cream","tree_fruit,oak,non_oak,citrus_fruit,microbio",5
+"coffee,green apple,citrus,toast,cream","oak,tree_fruit,citrus_fruit,non_oak,microbio",5
+"citrus,toast,coffee,cream,green apple","citrus_fruit,non_oak,oak,microbio,tree_fruit",5
+"toast,green apple,cream,citrus","non_oak,tree_fruit,microbio,citrus_fruit",4
+"toast,green apple,cream,citrus","non_oak,tree_fruit,microbio,citrus_fruit",4
+"toast,green apple,cream,citrus","non_oak,tree_fruit,microbio,citrus_fruit",4
+"toast,cream,green apple,citrus","non_oak,microbio,tree_fruit,citrus_fruit",4
+"toast,cream,green apple,citrus","non_oak,microbio,tree_fruit,citrus_fruit",4
+"toast,cream,green apple,citrus","non_oak,microbio,tree_fruit,citrus_fruit",4
+"toast,cream,green apple,citrus","non_oak,microbio,tree_fruit,citrus_fruit",4
+"toast,cream,green apple,citrus","non_oak,microbio,tree_fruit,citrus_fruit",4
+"toast,cream,citrus,green apple","non_oak,microbio,citrus_fruit,tree_fruit",4
+"toast,cream,citrus,green apple","non_oak,microbio,citrus_fruit,tree_fruit",4
+"toast,citrus,green apple,cream","non_oak,citrus_fruit,tree_fruit,microbio",4
+"toast,citrus,cream,green apple","non_oak,citrus_fruit,microbio,tree_fruit",4
+"green apple,toast,cream,citrus","tree_fruit,non_oak,microbio,citrus_fruit",4
+"green apple,toast,citrus,cream","tree_fruit,non_oak,citrus_fruit,microbio",4
+"green apple,cream,toast,citrus","tree_fruit,microbio,non_oak,citrus_fruit",4
+"green apple,cream,citrus,toast","tree_fruit,microbio,citrus_fruit,non_oak",4
+"green apple,citrus,toast,cream","tree_fruit,citrus_fruit,non_oak,microbio",4
+"green apple,citrus,toast,cream","tree_fruit,citrus_fruit,non_oak,microbio",4
+"green apple,citrus,toast,cream","tree_fruit,citrus_fruit,non_oak,microbio",4
+"cream,toast,green apple,citrus","microbio,non_oak,tree_fruit,citrus_fruit",4
+"cream,toast,green apple,citrus","microbio,non_oak,tree_fruit,citrus_fruit",4
+"cream,toast,green apple,citrus","microbio,non_oak,tree_fruit,citrus_fruit",4
+"cream,toast,green apple,citrus","microbio,non_oak,tree_fruit,citrus_fruit",4
+"cream,toast,citrus,green apple","microbio,non_oak,citrus_fruit,tree_fruit",4
+"cream,green apple,toast,citrus","microbio,tree_fruit,non_oak,citrus_fruit",4
+"cream,green apple,citrus,toast","microbio,tree_fruit,citrus_fruit,non_oak",4
+"cream,citrus,toast,green apple","microbio,citrus_fruit,non_oak,tree_fruit",4
+"cream,citrus,toast,green apple","microbio,citrus_fruit,non_oak,tree_fruit",4
+"cream,citrus,green apple,toast","microbio,citrus_fruit,tree_fruit,non_oak",4
+"coffee,toast,cream,citrus","oak,non_oak,microbio,citrus_fruit",4
+"coffee,toast,cream,citrus","oak,non_oak,microbio,citrus_fruit",4
+"coffee,toast,cream,citrus","oak,non_oak,microbio,citrus_fruit",4
+"coffee,toast,cream,citrus","oak,non_oak,microbio,citrus_fruit",4
+"coffee,toast,cream,citrus","oak,non_oak,microbio,citrus_fruit",4
+"coffee,toast,cream,citrus","oak,non_oak,microbio,citrus_fruit",4
+"coffee,toast,cream,citrus","oak,non_oak,microbio,citrus_fruit",4
+"coffee,toast,cream,citrus","oak,non_oak,microbio,citrus_fruit",4
+"coffee,toast,citrus,cream","oak,non_oak,citrus_fruit,microbio",4
+"coffee,cream,toast,citrus","oak,microbio,non_oak,citrus_fruit",4
+"coffee,cream,toast,citrus","oak,microbio,non_oak,citrus_fruit",4
+"citrus,toast,cream,green apple","citrus_fruit,non_oak,microbio,tree_fruit",4
+"citrus,green apple,cream,toast","citrus_fruit,tree_fruit,microbio,non_oak",4
+"citrus,coffee,toast,cream","citrus_fruit,oak,non_oak,microbio",4
+"toast,cream,citrus","non_oak,microbio,citrus_fruit",3
+"toast,cream,citrus","non_oak,microbio,citrus_fruit",3
+"toast,cream,citrus","non_oak,microbio,citrus_fruit",3
+"toast,cream,citrus","non_oak,microbio,citrus_fruit",3
+"toast,cream,citrus","non_oak,microbio,citrus_fruit",3
+"toast,cream,citrus","non_oak,microbio,citrus_fruit",3
+"green apple,cream,citrus","tree_fruit,microbio,citrus_fruit",3
+"green apple,citrus,cream","tree_fruit,citrus_fruit,microbio",3
+"green apple,citrus,cream","tree_fruit,citrus_fruit,microbio",3
+"green apple,citrus,cream","tree_fruit,citrus_fruit,microbio",3
+"green apple,citrus,cream","tree_fruit,citrus_fruit,microbio",3
+"cream,toast,citrus","microbio,non_oak,citrus_fruit",3
+"cream,green apple,citrus","microbio,tree_fruit,citrus_fruit",3
+"cream,citrus,toast","microbio,citrus_fruit,non_oak",3
+"cream,citrus,toast","microbio,citrus_fruit,non_oak",3
+"coffee,toast,cream","oak,non_oak,microbio",3
+"coffee,toast,cream","oak,non_oak,microbio",3
+"coffee,toast,cream","oak,non_oak,microbio",3
+"coffee,toast,cream","oak,non_oak,microbio",3
+"coffee,toast,cream","oak,non_oak,microbio",3
+"coffee,toast,cream","oak,non_oak,microbio",3
+"coffee,toast,cream","oak,non_oak,microbio",3
+"coffee,toast,cream","oak,non_oak,microbio",3
+"coffee,toast,cream","oak,non_oak,microbio",3
+"coffee,toast,cream","oak,non_oak,microbio",3
+"coffee,toast,cream","oak,non_oak,microbio",3
+"coffee,toast,cream","oak,non_oak,microbio",3
+"coffee,toast,cream","oak,non_oak,microbio",3
+"coffee,toast,cream","oak,non_oak,microbio",3
+"coffee,toast,cream","oak,non_oak,microbio",3
+"coffee,toast,cream","oak,non_oak,microbio",3
+"coffee,toast,cream","oak,non_oak,microbio",3
+"coffee,toast,cream","oak,non_oak,microbio",3
+"coffee,toast,cream","oak,non_oak,microbio",3
+"coffee,toast,cream","oak,non_oak,microbio",3
+"coffee,toast,cream","oak,non_oak,microbio",3
+"coffee,toast,cream","oak,non_oak,microbio",3
+"coffee,toast,cream","oak,non_oak,microbio",3
+"coffee,toast,cream","oak,non_oak,microbio",3
+"coffee,toast,cream","oak,non_oak,microbio",3
+"coffee,toast,cream","oak,non_oak,microbio",3
+"coffee,toast,cream","oak,non_oak,microbio",3
+"coffee,toast,cream","oak,non_oak,microbio",3
+"coffee,toast,cream","oak,non_oak,microbio",3
+"coffee,toast,cream","oak,non_oak,microbio",3
+"coffee,toast,cream","oak,non_oak,microbio",3
+"coffee,toast,cream","oak,non_oak,microbio",3
+"coffee,toast,cream","oak,non_oak,microbio",3
+"coffee,toast,cream","oak,non_oak,microbio",3
+"coffee,toast,cream","oak,non_oak,microbio",3
+"coffee,toast,cream","oak,non_oak,microbio",3
+"coffee,toast,cream","oak,non_oak,microbio",3
+"coffee,toast,cream","oak,non_oak,microbio",3
+"coffee,toast,cream","oak,non_oak,microbio",3
+"coffee,toast,cream","oak,non_oak,microbio",3
+"coffee,toast,cream","oak,non_oak,microbio",3
+"coffee,toast,cream","oak,non_oak,microbio",3
+"coffee,toast,cream","oak,non_oak,microbio",3
+"coffee,toast,cream","oak,non_oak,microbio",3
+"coffee,toast,cream","oak,non_oak,microbio",3
+"coffee,toast,cream","oak,non_oak,microbio",3
+"coffee,toast,cream","oak,non_oak,microbio",3
+"coffee,toast,cream","oak,non_oak,microbio",3
+"coffee,toast,cream","oak,non_oak,microbio",3
+"coffee,toast,cream","oak,non_oak,microbio",3
+"coffee,toast,cream","oak,non_oak,microbio",3
+"coffee,toast,cream","oak,non_oak,microbio",3
+"coffee,toast,cream","oak,non_oak,microbio",3
+"coffee,toast,cream","oak,non_oak,microbio",3
+"coffee,toast,cream","oak,non_oak,microbio",3
+"coffee,toast,cream","oak,non_oak,microbio",3
+"coffee,toast,cream","oak,non_oak,microbio",3
+"coffee,toast,cream","oak,non_oak,microbio",3
+"coffee,toast,cream","oak,non_oak,microbio",3
+"coffee,cream,toast","oak,microbio,non_oak",3
+"coffee,cream,toast","oak,microbio,non_oak",3
+"coffee,cream,toast","oak,microbio,non_oak",3
+"citrus,toast,cream","citrus_fruit,non_oak,microbio",3
+"citrus,toast,cream","citrus_fruit,non_oak,microbio",3
+"citrus,green apple,cream","citrus_fruit,tree_fruit,microbio",3
+"citrus,green apple,cream","citrus_fruit,tree_fruit,microbio",3
+"citrus,green apple,cream","citrus_fruit,tree_fruit,microbio",3
+"citrus,green apple,cream","citrus_fruit,tree_fruit,microbio",3
+"citrus,cream,toast","citrus_fruit,microbio,non_oak",3
+"citrus,cream,toast","citrus_fruit,microbio,non_oak",3
+"citrus,cream,green apple","citrus_fruit,microbio,tree_fruit",3
+"citrus,cream,green apple","citrus_fruit,microbio,tree_fruit",3
+"toast,citrus","non_oak,citrus_fruit",2
+"green apple,citrus","tree_fruit,citrus_fruit",2
+"cream,citrus","microbio,citrus_fruit",2
+"cream,citrus","microbio,citrus_fruit",2
+"cream,citrus","microbio,citrus_fruit",2
+"cream,citrus","microbio,citrus_fruit",2
+"cream,citrus","microbio,citrus_fruit",2
+"cream,citrus","microbio,citrus_fruit",2
+"cream,citrus","microbio,citrus_fruit",2
+"cream,citrus","microbio,citrus_fruit",2
+"cream,citrus","microbio,citrus_fruit",2
+"cream,citrus","microbio,citrus_fruit",2
+"cream,citrus","microbio,citrus_fruit",2
+"cream,citrus","microbio,citrus_fruit",2
+"coffee,toast","oak,non_oak",2
+"coffee,toast","oak,non_oak",2
+"coffee,toast","oak,non_oak",2
+"coffee,toast","oak,non_oak",2
+"coffee,toast","oak,non_oak",2
+"coffee,toast","oak,non_oak",2
+"coffee,toast","oak,non_oak",2
+"coffee,toast","oak,non_oak",2
+"coffee,cream","oak,microbio",2
+"coffee,cream","oak,microbio",2
+"coffee,cream","oak,microbio",2
+"coffee,cream","oak,microbio",2
+"coffee,cream","oak,microbio",2
+"coffee,cream","oak,microbio",2
+"coffee,cream","oak,microbio",2
+"coffee,cream","oak,microbio",2
+"coffee,cream","oak,microbio",2
+"coffee,cream","oak,microbio",2
+"coffee,cream","oak,microbio",2
+"coffee,cream","oak,microbio",2
+"coffee,cream","oak,microbio",2
+"coffee,cream","oak,microbio",2
+"coffee,cream","oak,microbio",2
+"coffee,cream","oak,microbio",2
+"coffee,cream","oak,microbio",2
+"coffee,cream","oak,microbio",2
+"coffee,cream","oak,microbio",2
+"coffee,cream","oak,microbio",2
+"coffee,cream","oak,microbio",2
+"coffee,cream","oak,microbio",2
+"coffee,cream","oak,microbio",2
+"coffee,cream","oak,microbio",2
+"coffee,cream","oak,microbio",2
+"coffee,cream","oak,microbio",2
+"coffee,cream","oak,microbio",2
+"coffee,cream","oak,microbio",2
+"coffee,cream","oak,microbio",2
+"coffee,cream","oak,microbio",2
+"coffee,cream","oak,microbio",2
+"coffee,cream","oak,microbio",2
+"coffee,cream","oak,microbio",2
+"coffee,cream","oak,microbio",2
+"coffee,cream","oak,microbio",2
+"coffee,cream","oak,microbio",2
+"coffee,cream","oak,microbio",2
+"citrus,green apple","citrus_fruit,tree_fruit",2
+"citrus,cream","citrus_fruit,microbio",2
+"citrus,cream","citrus_fruit,microbio",2
+"citrus,cream","citrus_fruit,microbio",2
+"citrus,cream","citrus_fruit,microbio",2
+"citrus,cream","citrus_fruit,microbio",2
+"citrus,cream","citrus_fruit,microbio",2
+"citrus,cream","citrus_fruit,microbio",2
+"citrus,cream","citrus_fruit,microbio",2
+"citrus,cream","citrus_fruit,microbio",2
+"citrus,cream","citrus_fruit,microbio",2
+"citrus,cream","citrus_fruit,microbio",2
+"citrus,cream","citrus_fruit,microbio",2
