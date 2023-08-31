@@ -17,22 +17,25 @@ We have analysed the database called 'vivino.db'. The schema can be found below:
 
 
 ## Assumption
-We have assumed that the amount of ratings of the wines have been posted by clients that have bought the wine thourgh the webshop. Therefor we calculated the revenue to date by multiplying the 'rating_counts' by the price of the wine.
+We have assumed that the amount of ratings of the wines have been posted by clients that have bought the wine through the webshop. Therefore we calculated the revenue to date by multiplying the 'rating_counts' by the price of the wine.
 
 
 ## Market Analysis
+### Overview of the amount of wines produced globally
+![Alt text](images/worldoverview.png)
+
 
 ### **1) We want to highlight 10 wines to increase our sales. Which ones should we choose and why?**
 
 ![Alt text](images/question1.png)
 
-We would like to recommmend the wines presented in the graph below. To increase sales we want to look at the wines that have brought in the most revenue date. Obviously this approach is speculative but does give us a good insight on what wines can give us a big spike in sales if marketed properly.
+We would like to recommmend the wines presented in the graph below. To increase sales we want to look at the wines that have brought in the most revenue to date. Obviously this approach is speculative but does give us a good insight on which wines can give us a big spike in sales if marketed properly.
 
-The **Petrus Pommerol 1982** stands out because of it's high sale price (91800 euros per unit) but given the fact that it has a high overall rating (4.7) out of 1361 reviews we can assume this wine is a must buy for who can afford it. A total revenue of € 12 million makes it jump out in comparison to the other wines.
+The **Petrus Pommerol 1982** stands out because of it's high sale price (9180 euros per unit) but given the fact that it has a high overall rating (4.7) out of 1361 reviews we can assume this wine is a must buy for who can afford it. A total revenue of **€ 12 million** makes it jump out in comparison to the other wines.
 
 A close competitor when it comes to total revenue is the **Dom Pérignon Brut Champagne 2006** with a revenue of **€ 9.25 million**. With a reasonable buy price of €440. This wine is more accessible to the public. This accessibility is clear with a total average rating of 4.6 out of 21121 reviews.
 
-We can see that the more affordable top rated wines have a big revenue stream. The **Krug Grande Cuvée** brings in **€ 6.9 million**. with a massive amount of 28513 reviews and an affordable price of € 245.
+We can see that the more affordable top rated wines have a big revenue stream. The **Krug Grande Cuvée** brings in **€ 6.9 million**, with a massive amount of 28513 reviews and an affordable price of € 245.
 
 We decided to take into account not only the premium vintages but also vintages that are affordable for everyone who wants to enjoy globally top rated wines.
 
@@ -63,11 +66,11 @@ Cabernet Sauvignon is clearly the most popular grape used in the wine industry a
 
 The closest relation between the wines created in a country and the vintages of that country are to be found in **Romania**, **Croatia** and **Argentina**. For these 3 countries the average rating of the vintages and the average rating of the wines produced is pretty much equal.
 
-Thie biggest difference in this list are the wines from **Germany** (which have an average rating of Vintages of about 1.7 and an average rating for wines of about 4.48). 
+The biggest difference in this list are the wines from **Germany** (which have an average rating of Vintages of about 1.7 and an average rating for wines of about 4.48). 
 
-We can assume that the date on Isreal is either incomplete or incorrect.
+We can assume that the data on Israel is either incomplete or incorrect.
 
-### **7) One of our VIP client likes Cabernet Sauvignon and would like our top 5 recommendations. Which wines would you recommend to him?**
+### **7) One of our VIP clients likes Cabernet Sauvignon and would like our top 5 recommendations. Which wines would you recommend to him?**
 ![Alt text](images/question7.png)
 
 We would recommend the **Scarecrow Cabernet Sauvignon 2015**. It is highly ranked and the reviews are stellar (4.8 out of 5 from 243 ratings).
