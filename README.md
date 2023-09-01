@@ -8,7 +8,7 @@ Make sure you have python 3.10 or 3.11 installed
 pip install -r requirements.txt
 ```
 ```
-streamlit run streamlit.py
+streamlit run streamlitmain.py
 ```
 
 ## Database schema
