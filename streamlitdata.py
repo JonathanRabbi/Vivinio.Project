@@ -121,7 +121,7 @@ for trace in fig4.data:
     trace.text = [f'€ {x/1000000:.2f} m' for x in text_positions]
     trace.textposition = 'inside'
 
-# Question 4-5: specific combination of tastes
+# Question 4: specific combination of tastes
 test = '''
 SELECT 
     GROUP_CONCAT(DISTINCT keywords.name) AS mixed_tastes,
@@ -147,40 +147,23 @@ GROUP BY
     wines.name
 HAVING 
     COUNT(DISTINCT keywords.name) >= 2
-ORDER BY count_of_tastes DESC, mixed_tastes DESC
+ORDER BY count_of_tastes DESC
 '''
 cursor.execute(test)
 data = cursor.fetchall()
 
 cols = ['mixed_tastes', 'taste_groups', 'count_mixed_tastes']
 df_13 = pd.DataFrame(data, columns=cols)
-# pd.set_option('display.max_rows', None)  # Display all rows
-# df_13.head(3)
-# Assuming you already have the DataFrame named df
-# Calculate the percentage of items for each count
-count_percentage = df_13['taste_groups'].value_counts(normalize=True) * 100
 
-# Filter labels and percentages for slices with percentage > 2.5%
-filtered_data = count_percentage[count_percentage > 2.5]
+df_13["taste_groups"] = df_13["taste_groups"].apply(lambda x: ",".join(sorted(x.split(","))))
 
-# Create a DataFrame for the filtered data
-filtered_df = pd.DataFrame({'Taste Groups': filtered_data.index, 'Percentage': filtered_data.values})
+# Group by the preprocessed mixed_tastes and sum the counts
+grouped_df = df_13.groupby("taste_groups")["count_mixed_tastes"].sum().reset_index()
 
-# Create a pie chart using Plotly Express
-fig5 = px.pie(
-    data_frame=filtered_df,
-    values='Percentage',
-    names='Taste Groups',
-    title='Percentage of each taste group',
-    labels={'Taste Groups': 'Taste Groups'},
-    hover_data={'Percentage': ':.1f%'}
-)
-
-# Center the legend to the right of the pie chart
-fig5.update_layout(legend_title_text='Taste Groups', legend=dict(orientation="v", yanchor="middle", y=0.5, xanchor="left", x=1))
+# Create a pie chart to visualize the most popular taste groups
+fig5 = px.pie(grouped_df, names="taste_groups", values="count_mixed_tastes", title="Popular Taste Groups")
 
 
-# pd.set_option('display.max_rows', None)
 
 # Question 5:    Find the top 3 most common grape all over the world and for each grape. Give us the 5 best rated wines. - IGNORE CANNOT BE ANSWERED
 query1 = """SELECT most_used_grapes_per_country.grape_id, grapes.name, most_used_grapes_per_country.wines_count, COUNT(most_used_grapes_per_country.grape_id) AS grapeCount
@@ -263,5 +246,4 @@ fig6.update_xaxes(tickangle=-45)
 
 # Update the positioning of the price text on the bars
 fig6.update_traces(textposition='inside')
-
 
