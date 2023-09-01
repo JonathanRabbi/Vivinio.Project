@@ -51,8 +51,8 @@ We decided to take into account not only the premium vintages but also vintages 
 
 ### **4) We have detected that a big cluster of customers like a specific combination of tastes. We have identified a few primary keywords that match this. We would like you to find all the wines that have those keywords. To ensure the accuracy of our selection, ensure that more than 10 users confirmed those keywords. Also, identify the group_name related to those keywords. The keywords in question are [coffee, toast, green apple, cream, citrus]**
 
-![Alt text](<images/question 4.png>)
-We have grouped the keywords into taste groups and have visualised the percentages per taste group. It's clear that the **[oak, non oak, microbio]** combination is very popular as it consists of about 39.9% of the taste groups, close second is the **[oak, microbio]** combo (25%) followed by the **[citrus_fruit, microbio]** group.
+![Alt text](images/populartastes.png)
+We have grouped the keywords into taste groups and have visualised the percentages per taste group. It's clear that the **[microbio, non_oak, oak]** combination is very popular as it consists of about 28.1% of the taste groups, close second is the **[citrus_fruit, microbio, non_oak, tree_fruit]** combo (18.7%) followed by the **[citrus_fruit, microbio, non_oak, oak, tree_fruit]** group (12.8%).
 
 ### **5) We would like to select wines that are easy to find all over the world. Find the top 3 most common grape all over the world and for each grape, give us the the 5 best rated wines.**
 :exclamation: The full answer to this question cannot be given, because there is no direct link between the grape type used in the wines. There is however a link between the grape type and the top 3 of grapes used in a certain country. :exclamation:
